@@ -21,3 +21,4 @@ python manage.py migrate
 Szerver inditas:
 
 python manage.py runserver 8080
+

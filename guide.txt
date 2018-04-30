@@ -1,0 +1,23 @@
+Virtual environment letrehozasa:
+
+virtualenv --python="C:\Program Files (x86)\Python36-32\python.exe" myvenv
+
+Virtualis kornyezetben valtashoz:
+
+C:\Users\robert.pecz\PycharmProjects\django\myvenv\Scripts
+
+Pip upgrade: 
+
+c:\users\robert.pecz\pycharmprojects\django\myvenv\scripts\python.exe -m pip install --upgrade pip
+
+Django telepitese:
+
+python -m pip install django~=1.11.0
+
+Adatbazis letrehozasa:
+
+python manage.py migrate
+
+Szerver inditas:
+
+python manage.py runserver 8080

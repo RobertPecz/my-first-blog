@@ -7,7 +7,7 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 .page-header {
-    background: url(https://cdn.pixabay.com/photo/2016/10/03/15/34/banner-1711944_1280.jpg); 
+    background: #ffffff url(https://raw.githubusercontent.com/RobertPecz/my-first-blog/master/blog/static/pictures/banner-1711944_1920.jpg) no-repeat;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -22,7 +22,6 @@ body {
 .content {
     background-color: #e2e2e2;
     width: 600px;
-    padding-left: 30px;
 }
 
 h1, h2, h3, h4 {
@@ -51,7 +50,7 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
-    padding-left: 0px;
+    padding-left: 30px;
 }
 
     .post h1 a, .post h1 a:visited {
@@ -59,4 +58,7 @@ h1, h2, h3, h4 {
     }
 .col-md-8 {
     width: 80%;
+}
+.container {
+    padding-left: 0px;
 }

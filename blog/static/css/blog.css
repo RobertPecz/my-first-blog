@@ -8,8 +8,10 @@ body {
 }
 .page-header {
     background: #ffffff url(https://raw.githubusercontent.com/RobertPecz/my-first-blog/master/blog/static/pictures/banner-1711944_1920.jpg) no-repeat;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 70%;
+    padding: 40px 40px 40px 40px;
 }
 
     .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {

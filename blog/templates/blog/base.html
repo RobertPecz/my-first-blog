@@ -8,18 +8,36 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 </head>
 <body>
-    <body>
-        <div class="page-header">
-            <h1><a href="/">Robert Pecz Blog</a></h1>
-        </div>
-        <div class="content container">
-            <div class="row">
+    <div class="page-header">
+        <h1><a href="/">Robert Pecz Blog</a></h1>
+    </div>   
+    <div class="content container" style="max-width:1980px; min-height:100%">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="sidebar-text">
+                    <h2 class="sidebar-title">Hello World!</h2>
+                    <p>
+                        Ez egy régóta elfogadott tény,
+                        miszerint egy olvasót zavarja az
+                        olvasható szöveg miközben a szöveg
+                        elrendezését nézi. A Lorem Ipsum használatának
+                        lényege, hogy többé-kevésbé rendezettebb betûket tartalmaz,
+                        ellentétben a Tartalom helye, Tartalom helye-féle megoldással.
+                        Sok desktop szerkesztõ és weboldal szerkesztõ használja a Lorem Ipsum-ot mint
+                        alapbeállítású szövegmodellt, és egy keresés a lorem ipsum-ra sok félkész weboldalt
+                        fog eredményezni.
+                    </p>
+                </div>
+            </div>
+            
                 <div class="col-md-8">
                     {% block content %}
                     {% endblock %}
                 </div>
-            </div>
+            
         </div>
-    </body>
+    </div>
+        
+    
 </body>
 </html>

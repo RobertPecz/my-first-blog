@@ -8,16 +8,19 @@ body {
 }
 .page-header {
     background: #ffffff url(https://raw.githubusercontent.com/RobertPecz/my-first-blog/master/blog/static/pictures/banner-1711944_1920.jpg) no-repeat;
-    display: block;
-    margin: 0 auto 0 auto;
-    width: 70%;
     padding: 40px 40px 40px 40px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    margin: 0;
 }
 
     .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
         color: #ffffff;
         font-size: 36pt;
         text-decoration: none;
+        text-align: center;
+        padding: 0 250px 0 0;
         font-family: 'Titillium Web', sans-serif;
     }
 
@@ -59,8 +62,22 @@ h1, h2, h3, h4 {
         color: #000000;
     }
 .col-md-8 {
-    width: 80%;
+    width: 66.6%;
 }
 .container {
-    padding-left: 0px;
+    padding-left: 0px;    
+    position: center;
+    width: 60%;
+}
+.col-md-9 {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 33.3%; /* Set the width of the sidebar */
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.row{
+    display: block;
+    position: center;
 }

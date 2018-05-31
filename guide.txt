@@ -4,7 +4,9 @@ virtualenv --python="C:\Program Files (x86)\Python36-32\python.exe" myvenv
 
 Virtualis kornyezetben valtashoz:
 
-C:\Users\robert.pecz\PycharmProjects\django\myvenv\Scripts
+C:\Users\robert.pecz\PycharmProjects\django\myvenv\Scripts\
+
+Activate
 
 Pip upgrade: 
 

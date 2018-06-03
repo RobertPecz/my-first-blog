@@ -1,4 +1,4 @@
-﻿{% load staticfiles %}
+{% load staticfiles %}
 <html>
 <head>
     <title>Robert Pecz blog</title>
@@ -10,7 +10,7 @@
 <body>
     <div class="page-header">
         <h1><a href="/">Robert Pecz Blog</a></h1>
-    </div>   
+    </div>
     <div class="content container">
         <div class="row">
             <div class="col-md-9">
@@ -28,12 +28,12 @@
                         fog eredményezni.
                     </p>
                 </div>
-            </div>           
-                <div class="col-md-8">
-                    {% block content %}
-                    {% endblock %}
-                </div>           
+            </div>
+            <div class="col-md-8">
+                {% block content %}
+                {% endblock %}
+            </div>
         </div>
-    </div>          
+    </div>
 </body>
 </html>

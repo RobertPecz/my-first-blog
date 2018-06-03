@@ -14,6 +14,6 @@ def post_detail(request, pk):
 
 
 def tag_detail(request, tag):
-    posts = Post.objects.filter(tags__contains=tag)
+    posts = Post.objects.filter(tags__slug=tag)
     return render(request, 'blog/tag_detail.html', {"posts": posts, "tag": tag})
 

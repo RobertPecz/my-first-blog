@@ -1,4 +1,4 @@
-{% extends 'blog/base.html' %}
+﻿{% extends 'blog/base.html' %}
 {% block content %}
 {% for post in posts %}
                      
@@ -7,7 +7,8 @@
                     {{ post.published_date }}
                 </div>
                 <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
-                <p>{{ post.text|linebreaksbr }}</p>
+                <p>{{ post.text|linebreaksbr|truncatewords:50 }}</p>
+                <p charset=UTF-8><a href="{% url 'post_detail' pk=post.pk %}">Tovább olvasom</a></p>
                 <div class="tags">
                     {% for tag in post.tags.all %}
                     <a href="/tag/{{tag}}">{{tag}}</a>

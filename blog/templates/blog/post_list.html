@@ -4,7 +4,7 @@
 
 <div class="post">
     <div class="date">
-        {{ post.published_date }}
+        {{ post.published_date|date:"Y. m. d. H:i" }}
     </div>
     <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
     <p>{{ post.text|linebreaksbr|truncatewords:50 }}</p>

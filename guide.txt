@@ -24,3 +24,5 @@ Szerver inditas:
 
 python manage.py runserver 8080
 
+20:00tol Try django Tutorial series(v1.11)
+
